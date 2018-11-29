@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bc587f99-b46f-4973-b82d-e98db8e15dca</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>face_recog</Name>
+    <RootNamespace>face_recog</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="face_recog\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="runserver.py" />
+    <Compile Include="face_recog\__init__.py" />
+    <Compile Include="face_recog\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="face_recog\" />
+    <Folder Include="face_recog\static\" />
+    <Folder Include="face_recog\static\assets\" />
+    <Folder Include="face_recog\static\assets\bootstrap\" />
+    <Folder Include="face_recog\static\assets\bootstrap\css\" />
+    <Folder Include="face_recog\static\assets\bootstrap\js\" />
+    <Folder Include="face_recog\static\assets\dropdown\" />
+    <Folder Include="face_recog\static\assets\dropdown\css\" />
+    <Folder Include="face_recog\static\assets\dropdown\js\" />
+    <Folder Include="face_recog\static\assets\formoid\" />
+    <Folder Include="face_recog\static\assets\images\" />
+    <Folder Include="face_recog\static\assets\mobirise\" />
+    <Folder Include="face_recog\static\assets\mobirise\css\" />
+    <Folder Include="face_recog\static\assets\parallax\" />
+    <Folder Include="face_recog\static\assets\popper\" />
+    <Folder Include="face_recog\static\assets\smoothscroll\" />
+    <Folder Include="face_recog\static\assets\socicon\" />
+    <Folder Include="face_recog\static\assets\socicon\css\" />
+    <Folder Include="face_recog\static\assets\socicon\fonts\" />
+    <Folder Include="face_recog\static\assets\tether\" />
+    <Folder Include="face_recog\static\assets\theme\" />
+    <Folder Include="face_recog\static\assets\theme\css\" />
+    <Folder Include="face_recog\static\assets\theme\js\" />
+    <Folder Include="face_recog\static\assets\touchswipe\" />
+    <Folder Include="face_recog\static\assets\web\" />
+    <Folder Include="face_recog\static\assets\web\assets\" />
+    <Folder Include="face_recog\static\assets\web\assets\jquery\" />
+    <Folder Include="face_recog\static\assets\web\assets\mobirise-icons\" />
+    <Folder Include="face_recog\static\content\" />
+    <Folder Include="face_recog\static\fonts\" />
+    <Folder Include="face_recog\static\scripts\" />
+    <Folder Include="face_recog\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="face_recog\static\assets\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="face_recog\static\assets\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="face_recog\static\assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="face_recog\static\assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="face_recog\static\assets\dropdown\css\style.css" />
+    <Content Include="face_recog\static\assets\dropdown\js\script.min.js" />
+    <Content Include="face_recog\static\assets\formoid\formoid.min.js" />
+    <Content Include="face_recog\static\assets\images\hashes.json" />
+    <Content Include="face_recog\static\assets\images\jumbotron.jpg" />
+    <Content Include="face_recog\static\assets\images\logo1-122x115.png" />
+    <Content Include="face_recog\static\assets\images\logo1-192x181.png" />
+    <Content Include="face_recog\static\assets\images\mbr-1-1620x1080.jpg" />
+    <Content Include="face_recog\static\assets\images\mbr-1620x1080.jpg" />
+    <Content Include="face_recog\static\assets\images\mbr-favicon.png" />
+    <Content Include="face_recog\static\assets\mobirise\css\mbr-additional.css" />
+    <Content Include="face_recog\static\assets\parallax\jarallax.min.js" />
+    <Content Include="face_recog\static\assets\popper\popper.min.js" />
+    <Content Include="face_recog\static\assets\smoothscroll\smooth-scroll.js" />
+    <Content Include="face_recog\static\assets\socicon\css\styles.css" />
+    <Content Include="face_recog\static\assets\socicon\fonts\socicon.eot" />
+    <Content Include="face_recog\static\assets\socicon\fonts\socicon.svg" />
+    <Content Include="face_recog\static\assets\socicon\fonts\socicon.ttf" />
+    <Content Include="face_recog\static\assets\socicon\fonts\socicon.woff" />
+    <Content Include="face_recog\static\assets\tether\tether.min.css" />
+    <Content Include="face_recog\static\assets\tether\tether.min.js" />
+    <Content Include="face_recog\static\assets\theme\css\style.css" />
+    <Content Include="face_recog\static\assets\theme\js\script.js" />
+    <Content Include="face_recog\static\assets\touchswipe\jquery.touch-swipe.min.js" />
+    <Content Include="face_recog\static\assets\web\assets\jquery\jquery.min.js" />
+    <Content Include="face_recog\static\assets\web\assets\mobirise-icons\mobirise-icons.css" />
+    <Content Include="face_recog\static\assets\web\assets\mobirise-icons\mobirise-icons.eot" />
+    <Content Include="face_recog\static\assets\web\assets\mobirise-icons\mobirise-icons.svg" />
+    <Content Include="face_recog\static\assets\web\assets\mobirise-icons\mobirise-icons.ttf" />
+    <Content Include="face_recog\static\assets\web\assets\mobirise-icons\mobirise-icons.woff" />
+    <Content Include="face_recog\templates\index.html" />
+    <Content Include="face_recog\templates\page1.html" />
+    <Content Include="face_recog\templates\page2.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="face_recog\static\content\bootstrap.css" />
+    <Content Include="face_recog\static\content\bootstrap.min.css" />
+    <Content Include="face_recog\static\content\site.css" />
+    <Content Include="face_recog\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="face_recog\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="face_recog\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="face_recog\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="face_recog\static\scripts\bootstrap.js" />
+    <Content Include="face_recog\static\scripts\bootstrap.min.js" />
+    <Content Include="face_recog\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="face_recog\static\scripts\jquery-1.10.2.js" />
+    <Content Include="face_recog\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="face_recog\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="face_recog\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="face_recog\static\scripts\jquery.validate.js" />
+    <Content Include="face_recog\static\scripts\jquery.validate.min.js" />
+    <Content Include="face_recog\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="face_recog\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="face_recog\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="face_recog\static\scripts\respond.js" />
+    <Content Include="face_recog\static\scripts\respond.min.js" />
+    <Content Include="face_recog\static\scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.6</Version>
+      <Description>env (Python 3.6 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
