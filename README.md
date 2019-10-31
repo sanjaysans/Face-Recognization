@@ -16,13 +16,13 @@ There are APIs for staff and student login with different levels of access to vi
 4. Then run the python application.
 
 # Technology Stack Used
-Languages : Python, JavaScript(ES6)
-Frameworks Used : Flask, ExpressJS
-Database : MongoDB Community Edition
-Operating System : Ubuntu 16.04 LTS
-IDE : Visual Studio
-DB Management Tools : Compass
-API tool : Postman
+1. Languages : Python, JavaScript(ES6)
+2. Frameworks Used : Flask, ExpressJS
+3. Database : MongoDB Community Edition
+4. Operating System : Ubuntu 16.04 LTS
+5. IDE : Visual Studio
+6. DB Management Tools : Compass
+7. API tool : Postman
 
 # Contributions
 Contributions are welcome. Please read the [contributions guide](CONTRIBUTING.md) for more information.
