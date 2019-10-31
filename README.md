@@ -28,4 +28,4 @@ There are APIs for staff and student login with different levels of access to vi
 Contributions are welcome. Please read the [contributions guide](CONTRIBUTING.md) for more information.
 
 # License
-Copyright 2018 Face-Recognization.
+Copyright 2018 sanjaysans/Face-Recognization.
